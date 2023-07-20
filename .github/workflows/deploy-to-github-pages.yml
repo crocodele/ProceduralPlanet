@@ -2,7 +2,7 @@ name: Build production version and deploy to GitHub Pages
 
 on:
   push:
-    branches: ["master"]
+    branches: ["feature/GitHubPagesDeployment"]
 
   # Allow to be manually started from the Actions tab
   workflow_dispatch:
